@@ -1,0 +1,1 @@
+{"banner_color": "RED", "banner_delay": 0.01, "text_color": "YELLOW", "text_delay": 0.05, "input_color": "BLUE", "input_delay": 0.06, "clue_color": "GREEN", "error_color": "RED", "SMS": "True", "CALL": "True", "FEEDBACK": "True", "TG_MSG": "True"}
