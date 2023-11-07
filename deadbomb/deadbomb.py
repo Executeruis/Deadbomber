@@ -68,8 +68,8 @@ def start_attack():
             if inp_ == 1:
                 return
             elif inp_ == 0:
-                #subprocess.Popen("clear")
-                #sleep(0.5)
+                subprocess.Popen("clear")
+                sleep(0.5)
                 slow_print("Запуск)")
                 start_async_attacks(number, limit, services)
           
@@ -149,8 +149,8 @@ def info(ret=False):
 
 
 if __name__ == '__main__':
-    #subprocess.Popen("clear")
-    #sleep(1)
+    subprocess.Popen("clear")
+    sleep(1)
     slow_print(banner, banner=True)
     slow_print(f"Version: {version}\nAuthor: {author}\n\n\n", clue=True)
     
