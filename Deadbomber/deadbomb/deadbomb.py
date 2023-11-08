@@ -39,7 +39,7 @@ def start_attack():
             slow_print("Неверный номер.", error=True)
         
         slow_print("Введите количество кругов:")
-        limit = get_input()
+        limit = int(get_input())
         services = []
         sms, call, fb, tg = info(True)
         cfg = check_config()
